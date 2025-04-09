@@ -1,0 +1,99 @@
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background-color: #0d1117; /* Deep VS Code blue-ish */
+  color: #c9d1d9; /* Light grey for readability */
+  font-family: 'Fira Code', monospace;
+}
+
+a {
+  color: #58a6ff; /* Slightly bright blue */
+  text-decoration: none;
+}
+a:hover {
+  color: #79c0ff;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.navbar-brand span {
+  color: #58a6ff;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #58a6ff;
+  border-bottom: 2px solid #30363d;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(88, 166, 255, 0.5);
+}
+
+.contact-icons i {
+  font-size: 2rem;
+  margin: 0 15px;
+  color: #58a6ff;
+  transition: color 0.3s, transform 0.3s;
+}
+.contact-icons i:hover {
+  color: #79c0ff;
+  transform: scale(1.2);
+}
+
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes hover-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.7; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-hover-bounce:hover {
+  animation: hover-bounce 0.6s ease-in-out;
+}
+
+.animate-wiggle {
+  animation: wiggle 1.5s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}

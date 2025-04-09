@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tej{} - OLAMIDE OLATEJU EMMANUEL PORTFOLIO</title>
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3/dist/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" /> -->
+  <link rel="stylesheet" href="assets/boxicons/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+   <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@/css/font-awesome.min.css" integrity="sha384-" crossorigin="anonymous">
+<!-- Boxicons (for Vue and extras) -->
+<!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+<style>
+  body {
+  background-color: #0d1117 !important; /* Deep VS Code blue-ish */
+  color: #c9d1d9 !important; /* Light grey for readability */
+  font-family: 'Fira Code', monospace;
+}
+</style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg px-4 py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand text-success" href="#"><strong>tej<span>{}</span></strong></a>
+    <div class="battery-status d-flex">
+      <!-- Battery icon and status -->
+      <i class="fa fa-bolt battery-icon"></i>
+      <span id="battery-level">Battery: ...%</span>
+    </div>
+    <button class="navbar-toggler bg-light text-success" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center text-lg-end">
+        <li class="nav-item px-2"><a class="nav-link text-success" href="#home">Home</a></li>
+        <li class="nav-item px-2"><a class="nav-link text-success" href="#about">About</a></li>
+        <li class="nav-item px-2"><a class="nav-link text-success" href="#projects">Projects</a></li>
+        <li class="nav-item px-2"><a class="nav-link text-success" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Home -->
+  <section id="home" class="container py-5 text-center">
+    <h1>Welcome to tej<span>{}</span>'s Portfolio</h1>
+    <p>Computer Science Student | Aspiring Software Engineer | Code & Purpose</p>
+  </section>
+
+  <!-- About -->
+<!-- About -->
+<section id="about" class="container py-5">
+  <h2 class="section-title fw-bold">About Me</h2>
+  <div class="row align-items-center">
+    <!-- Left Column: Thinking in systems + Image -->
+    <div class="col-md-6 order-md-1 mb-4 mb-md-0">
+      <h3 class="text-success">Thinking in Systems</h3>
+      <p>
+        <strong class="text-success">Hey, I’m Olateju Olamide Emmanuel.</strong> I'm a backend-focused Computer Science student with a passion for clean architecture, strong logic, and building scalable systems that solve real-world problems. I bring a solid foundation in software engineering, a love for tinkering, and an endless curiosity for how things work under the hood.
+      </p>
+      <p>
+        Rooted in strong engineering principles, I specialize in backend development — from designing APIs and structuring databases to writing clean, maintainable code that scales. My toolbox includes <strong>PHP, Laravel, MySQL, and Python</strong>, but I’m just as comfortable diving into <strong>Vue.js, React, Node.js</strong>, and <strong>Linux-based environments</strong>.
+      </p>
+      <p>
+        I think in systems, not just syntax. I’m driven by performance, reliability, and doing things the right way — even when it's harder. Whether I’m deploying with <strong>Docker</strong>, versioning with <strong>Git</strong>, or automating workflows with custom scripts, I get excited about the tools that make development smoother and smarter.
+      </p>
+      <p>
+        Beyond the codebase, I’m a dedicated self-learner with a tinkerer’s spirit — constantly exploring <strong>system design, dev tooling, security concepts, and open-source contributions</strong>. I also have a deep curiosity for everything from <em>Linux internals and history</em> to <em>philosophy, anime, and the occasional CLI rabbit hole</em>.
+      </p>
+      <p>
+        I learn by building — and when things break, I learn even faster. I'm currently looking for <strong>backend-focused opportunities or internships</strong> where I can contribute meaningfully, grow alongside a great team, and continue creating software that actually matters.
+      </p>
+    </div>
+
+    <!-- Right Column: Image -->
+    <div class="col-md-6 order-md-2">
+      <img src="assets/images/ChatGPT Image Apr 8, 2025, 04_34_29 PM.png" class="img-fluid rounded" alt="Ghibli-style Teju" />
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="container py-5">
+  <h2 class="section-title text-center mb-4">Skills</h2>
+
+  <!-- Front-End Development -->
+  <h4 class="text-success fw-bold monospace">Front-End Development</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-html5 fa-2x" style="color: #E34F26;"></i> HTML5</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-css3-alt fa-2x" style="color: #1572B6;"></i> CSS3</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-js-square fa-2x" style="color: #F7DF1E;"></i> jQuery</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-vuejs fa-2x" style="color: #42B883;"></i> Vue.js</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-bootstrap fa-2x" style="color: #7952B3;"></i> Blade / Bootstrap</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-code fa-2x" style="color: #CD6799;"></i> SASS</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-wind fa-2x" style="color: #38BDF8;"></i> Tailwind CSS</div>
+  </div>
+
+  <!-- Version Control & Deployment -->
+  <h4 class="text-success fw-bold monospace">Version Control & Deployment</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-git-alt fa-2x" style="color: #F1502F;"></i> Git</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-github fa-2x" style="color: #181717;"></i> GitHub</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-cloud-upload-alt fa-2x" style="color: #00C7B7;"></i> Vercel</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-globe fa-2x" style="color: #43A047;"></i> Netlify / GH Pages</div>
+  </div>
+
+  <!-- OS & Terminals -->
+  <h4 class="text-success fw-bold monospace">Operating Systems & Terminal</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-linux fa-2x" style="color: #FCC624;"></i> Ubuntu / Linux</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-user-secret fa-2x" style="color: #6c757d;"></i> Kali / Parrot OS</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-terminal fa-2x" style="color: #4CAF50;"></i> Bash / CLI</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-tools fa-2x" style="color: #FFA000;"></i> Sysadmin Basics</div>
+  </div>
+
+  <!-- Back-End Development -->
+  <h4 class="text-success fw-bold monospace">Back-End Development</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-php fa-2x" style="color: #777BB4;"></i> PHP</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-laravel fa-2x" style="color: #F55247;"></i> Laravel (Routing, MVC)</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-project-diagram fa-2x" style="color: #00ACC1;"></i> REST APIs</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-columns fa-2x" style="color: #795548;"></i> Blade Templating</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="bx bxl-nodejs fa-2x" style="color: #43A407;"></i> Node.js</div>
+  </div>
+
+  <!-- Databases -->
+  <h4 class="text-success fw-bold monospace">Databases</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-database fa-2x" style="color: #00758F;"></i> MySQL</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-database fa-2x" style="color: #336791;"></i> PostgreSQL</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-database fa-2x" style="color: #003B57;"></i> SQLite</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-database fa-2x" style="color: #003545;"></i> MariaDB</div>
+  </div>
+
+  <!-- DevOps & Tools -->
+  <h4 class="text-success fw-bold monospace">DevOps & Tools</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-docker fa-2x" style="color: #2496ED;"></i> Docker</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-terminal fa-2x" style="color: #26A69A;"></i> Composer</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-code-branch fa-2x" style="color: #A6E22E;"></i> Artisan CLI</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-vial fa-2x" style="color: #FF5722;"></i> Postman</div>
+    <div class="col-6 col-md-3 skill-icon animate-hover"><i class="fas fa-server fa-2x" style="color: #607D8B;"></i> XAMPP</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fas fa-code fa-2x" style="color: #00BCD4;"></i> VS Code</div>
+  </div>
+
+  <!-- Programming Languages (Familiar) -->
+  <h4 class="text-success fw-bold monospace">Other Programming Languages I am familiar with:</h4>
+  <div class="row text-center mb-4">
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-java fa-2x" style="color: #007396;"></i> Java</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-cuttlefish fa-2x" style="color: #A8B9CC;"></i> C / C++</div>
+    <div class="col-6 col-md-3 skill-icon "><i class="fab fa-python fa-2x" style="color: #3776AB;"></i> Python</div>
+  </div>
+</section>
+
+
+<!-- Hpbbies section -->
+ <!-- Bootstrap CSS (include in <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Hobbies Grid -->
+<section class="container py-5">
+  <h2 class="text-center fw-bold mb-4 display-6">🎯 Hobbies & Interests</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+    
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce">
+        <span class="fs-3 animate-pulse">🧠</span>
+        <div><strong>Coding & Tinkering</strong><br>Backend logic, dev tools, building stuff</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3 animate-spin-slow">📖</span>
+        <div><strong>Bible Study</strong><br>Rooted in purpose and values</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">📚</span>
+        <div><strong>Reading Books</strong><br>Technical, history, philosophy</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce">
+        <span class="fs-3">♟️</span>
+        <div><strong>Chess & Logic Puzzles</strong><br>Strategy and deep thinking</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">🏀</span>
+        <div><strong>Basketball & Gaming</strong><br>Whether IRL or retro</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">🎨</span>
+        <div><strong>Art & Aesthetics</strong><br>Design, anime, digital vibes</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce">
+        <span class="fs-3">🖥️</span>
+        <div><strong>Linux & CLI</strong><br>Terminal tools and shell life</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce">
+        <span class="fs-3">🔐</span>
+        <div><strong>Security Concepts</strong><br>Kali, Parrot, systems poking</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce">
+        <span class="fs-3">🧪</span>
+        <div><strong>Self-Learning</strong><br>Docs, breakdowns, late-night builds</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">🧩</span>
+        <div><strong>History & Philosophy</strong><br>Stoics, Aurelius, meaning</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">✍️</span>
+        <div><strong>Poetry & Writing</strong><br>Expression and reflection</div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="d-flex gap-3 animate-hover-bounce>
+        <span class="fs-3">🕹️</span>
+        <div><strong>Puzzle & Car Games</strong><br>Fun breaks with logic layers</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="projects" class="container py-5">
+  <h2 class="section-title">Projects</h2>
+  <div class="row g-4">
+
+    <!-- Palindrome Checker -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/palindorme-checker.png" class="card-img-top" alt="Palindrome Checker Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Palindrome Checker</h5>
+          <p class="card-text">Check if a word or phrase is a palindrome. Built with JavaScript.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://palindrome-checker-plum-sigma.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/palindrome-checker" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Paint App -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/web-paint.png" class="card-img-top" alt="Web Paint App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Web Paint App</h5>
+          <p class="card-text">A simple online paint app built with JavaScript to unleash your creativity.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://web-paint-delta.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/web-paint-app" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pomo Chrono -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/pomo-chrono.png" class="card-img-top" alt="Pomo Chrono Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Pomo Chrono</h5>
+          <p class="card-text">A Pomodoro timer to improve productivity, built with JavaScript.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://pomo-chrono.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/pomo-chrono" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mass Converter -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/mass-converter.png" class="card-img-top" alt="Mass Converter Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Mass Converter</h5>
+          <p class="card-text">Convert different units of mass with this simple app built using JavaScript.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://mass-converter-eight.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/mass-converter" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jokes App -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/jokes.png" class="card-img-top" alt="Jokes App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Jokes App</h5>
+          <p class="card-text">Get a random joke with the click of a button! Built with JavaScript.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://jokes-app-eta-lilac.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/jokes-app" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Braille App -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/braille.png" class="card-img-top" alt="Braille App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Braille App</h5>
+          <p class="card-text">Convert text to Braille symbols. Built with Vue & Vite.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://braille-app-one.vercel.app" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/braille-app" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vue Todo App -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/vue-to-do.png" class="card-img-top" alt="Vue Todo App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Vue Todo App</h5>
+          <p class="card-text">A simple and sleek todo list using Vue 3 composition API.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://vue-todo-app-orpin-rho.vercel.app" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/vue-todo-app" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Spanish Words -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/spanish.png" class="card-img-top" alt="Spanish Words Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Spanish Words</h5>
+          <p class="card-text">Learn Spanish with this simple app built with Vue and Vite.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://spanish-words-pi.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/spanish-words" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Philosopher Quotes -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/quotes.png" class="card-img-top" alt="Philosopher Quotes Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Philosopher Quotes</h5>
+          <p class="card-text">A random quote generator featuring great minds like Aurelius.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://philosopher-quotes-two.vercel.app" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/philosopher-quotes" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Key Codes -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/key-codes.png" class="card-img-top" alt="Key Codes Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Key Codes</h5>
+          <p class="card-text">Learn key codes for all major keys on your keyboard.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://key-codes-one.vercel.app" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/key-codes" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Morse Code -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/morse-code.png" class="card-img-top" alt="Morse Code Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Morse Code</h5>
+          <p class="card-text">Convert text to Morse code and vice versa.</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://morse-code-two.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/morse-code" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Password Manager -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/password-maanger.png" class="card-img-top" alt="Password Manager Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Password Manager</h5>
+          <p class="card-text">A secure password manager built with PHP.</p>
+          <div class="d-flex justify-content-between">
+            <a href="http://localhost/password-manager/dashboard.php" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/password-manager" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color Palette Generator -->
+    <div class="col-md-4">
+      <div class="card project-card h-100">
+        <img src="assets/images/color-pallete.png" class="card-img-top" alt="Color Palette Generator Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Color Palette Generator</h5>
+          <p class="card-text">Generate color palettes with ease!</p>
+          <div class="d-flex justify-content-between">
+            <a href="https://color-pallete-nine.vercel.app/" target="_blank" class="btn btn-outline-success btn-sm">Live Demo</a>
+            <a href="https://github.com/tejHacks/color-pallete-generator" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+      <!-- Nmap Commands Keeper -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/nmap.png" class="card-img-top" alt="Nmap Commands Keeper Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Nmap Commands Keeper</h5>
+            <p class="card-text">Manage Nmap commands with a PHP, MySQL backend, and attached to a bash script.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/nmap-commands-keeper" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Plants Keeper -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/plants-keeper.png" class="card-img-top" alt="Plants Keeper Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Plants Keeper</h5>
+            <p class="card-text">Track and manage your plant collection with a PHP & MySQL database.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/plants-keeper" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Linux Commands Keeper -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/linux-keeper.png" class="card-img-top" alt="Linux Commands Keeper Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Linux Commands Keeper</h5>
+            <p class="card-text">Store and manage your most-used Linux commands.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/linux-commands-keeper" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Docker Commands Keeper -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/docker.png" class="card-img-top" alt="Docker Commands Keeper Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Docker Commands Keeper</h5>
+            <p class="card-text">Store and manage your Docker commands.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/docker-commands-keeper" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Guess Number Game -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/guess-number.png" class="card-img-top" alt="Guess Number Game Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Guess Number Game</h5>
+            <p class="card-text">A fun game where you guess a random number.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/guess-number-game" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Hostel System -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/library.png" class="card-img-top" alt="Hostel System Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Library System</h5>
+            <p class="card-text">A library management system built with PHP and MySQL.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/hostel-system" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Poem Keeper -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/poem.png" class="card-img-top" alt="Poem Keeper Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Poem Keeper</h5>
+            <p class="card-text">Write and Save your favorite poems or poem inspirations in this PHP-based app.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/poem-keeper" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bible Study Notes App -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/bible-study.png" class="card-img-top" alt="Bible Study Notes App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Bible Study Notes App</h5>
+            <p class="card-text">Store and organize your Bible study notes with this app built with PHP.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/bible-study-notes" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Sniphub (Code Snippet Manager) -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/sniphub.png" class="card-img-top" alt="Sniphub Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Sniphub (Code Snippet Manager)</h5>
+            <p class="card-text">Save and manage your code snippets efficiently.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/sniphub" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Word Censor App -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/word-censor.png" class="card-img-top" alt="Word Censor App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Word Censor App</h5>
+            <p class="card-text">Censor inappropriate words from text input.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/word-censor-app" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Laravel To-Do App -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/laravel-to-do-app.png" class="card-img-top" alt="Laravel To-Do App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Laravel To-Do App</h5>
+            <p class="card-text">A to-do list app built using Laravel.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/laravel-todo" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+   
+  
+      <!-- Mini Laravel Blog -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/full_image.png.png" class="card-img-top" alt="Mini Laravel Blog Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Simple Contact Manager Laravel app</h5>
+            <p class="card-text">A simple contact manager app built with Laravel to practice CRUD operations.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/mini-laravel-blog" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Binary Search App -->
+      <div class="col-md-4">
+        <div class="card project-card h-100">
+          <img src="assets/images/binary-search.png" class="card-img-top" alt="Binary Search App Screenshot">
+          <div class="card-body">
+            <h5 class="card-title">Binary Search App</h5>
+            <p class="card-text">Learn and implement binary search in PHP.</p>
+            <div class="d-flex justify-content-between">
+              <a href="https://github.com/tejHacks/binary-search" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+  </div>
+</section>
+
+
+
+  <!-- Contact -->
+  <section id="contact" class="container py-5 text-center">
+    <h2 class="section-title">Contact</h2>
+    <p>Let's connect. I don’t bite—unless you write semicolons in Python 😤</p>
+    <div class="contact-icons">
+      <a href="https://www.github.com/tejHacks"><i class="bx bxl-github" style="color: #fff;"></i></a>
+      <a href="https://"><i class="bx bxl-twitter" style="color: #1DA1F2;"></i></a>
+      <a href="#"><i class="bx bxl-facebook" style="color: #1DA1F2;"></i></a>
+      <a href="#"><i class="bx bxl-linkedin" style="color: #1DA1F2;"></i></a>
+      <a href="#"><i class="bx bx-envelope" style="color: #EA4335;"></i></a>
+    </div>
+    
+  </section>
+
+  <!-- Scripts -->
+  <script>
+    // Simulate Battery API for now
+    function updateBatteryLevel() {
+      if (navigator.getBattery) {
+        navigator.getBattery().then(function(battery) {
+          const percent = Math.floor(battery.level * 100);
+          const isCharging = battery.charging ? "⚡ Charging" : "🔋";
+          document.getElementById("battery-level").textContent = `${isCharging} ${percent}%`;
+        });
+      } else {
+        // Fallback
+        document.getElementById("battery-level").textContent = "⚡ Charging 83%";
+      }
+    }
+
+    updateBatteryLevel();
+    setInterval(updateBatteryLevel, 1000); // Check every 1 sec
+  </script>
+
+  <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
