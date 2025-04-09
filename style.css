@@ -14,7 +14,7 @@ a {
 }
 a:hover {
   color: #79c0ff;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .navbar {
